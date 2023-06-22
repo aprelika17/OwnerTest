@@ -8,7 +8,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import ru.hh.config.WebDriverProvider;
-import ru.hh.pages.PageObject;
 
 
 public class TestBase {
