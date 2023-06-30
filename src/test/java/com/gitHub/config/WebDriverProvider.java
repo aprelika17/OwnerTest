@@ -1,9 +1,8 @@
-package ru.hh.config;
+package com.gitHub.config;
 
 import com.codeborne.selenide.Configuration;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
 import java.util.Map;
 
 public class WebDriverProvider {

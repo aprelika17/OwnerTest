@@ -1,4 +1,4 @@
-package ru.hh.tests;
+package com.gitHub.tests;
 
 import org.junit.jupiter.api.Test;
 
@@ -7,15 +7,15 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class GitHubTest {
+public class GitHubTest extends TestBase{
 
     @Test
     void testEnterprize() {
 
-        open("https://github.com/");
+        open("");
         $(".header-menu-wrapper").$(byText("Solutions")).hover();
         $(byText("Enterprise")).click();
-        $("div.position-relative h1").shouldHave(text("Build like the best"));
+        $("div.position-relative h1").shouldHave(text("Let’s build from here"));
 
     }
 }

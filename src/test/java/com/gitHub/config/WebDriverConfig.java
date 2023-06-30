@@ -1,4 +1,4 @@
-package ru.hh.config;
+package com.gitHub.config;
 
 import org.aeonbits.owner.Config;
 
@@ -9,7 +9,7 @@ import org.aeonbits.owner.Config;
 public interface WebDriverConfig extends Config {
 
     @Key("baseUrl")
-    @DefaultValue("https://hh.ru")
+    @DefaultValue("https://github.com/")
     String getBaseUrl();
 
     @Key("browser")
