@@ -1,12 +1,10 @@
-package com.gitHub.tests;
+package com.github.tests;
 
 
-import com.codeborne.selenide.logevents.SelenideLogger;
-import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import com.gitHub.helpers.Attach;
-import com.gitHub.config.WebDriverProvider;
+import com.github.helpers.Attach;
+import com.github.config.WebDriverProvider;
 
 
 public class TestBase {

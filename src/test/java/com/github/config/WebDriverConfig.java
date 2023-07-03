@@ -1,4 +1,4 @@
-package com.gitHub.config;
+package com.github.config;
 
 import org.aeonbits.owner.Config;
 

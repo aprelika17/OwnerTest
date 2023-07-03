@@ -1,4 +1,4 @@
-package com.gitHub.helpers;
+package com.github.helpers;
 
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Attachment;

@@ -1,4 +1,4 @@
-package com.gitHub.config;
+package com.github.config;
 
 import com.codeborne.selenide.Configuration;
 import org.aeonbits.owner.ConfigFactory;
